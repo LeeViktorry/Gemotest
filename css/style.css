@@ -33,6 +33,7 @@ body{
 .navbar ul{
     align-items: center;
     display: flex;
+    justify-content: space-around;
 }
 .navbar ul li{
     list-style: none;
@@ -40,9 +41,7 @@ body{
 .navbar ul li a{
     color: #94969c;
     text-decoration: none;
-    position: absolute;
     margin-top: -8px;
-    right: 42px;
     font-size: 12px;
     font-weight: 400;
     font-family: Inter,sans-serif;
